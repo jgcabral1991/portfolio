@@ -5,6 +5,7 @@
     --preto: #000;
     --branco: #FFF;
     --azul: #22DDFD;
+    --vermelho: #e61713;
     --cor-hover: #272727;
 
     --fonte-principal: 'Krona One', sans-serif;
@@ -32,7 +33,7 @@ body {
 }
 
 .cabecalho__menu__link {
-    color: var(--azul);
+    color: var(--vermelho);
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
@@ -64,7 +65,7 @@ body {
 }
 
 .titulo-destaque {
-    color: var(--azul);
+    color: var(--vermelho);
 }
 
 .apresentacao__conteudo__texto {
@@ -99,7 +100,7 @@ body {
     gap: 1rem;
     padding: 1rem;
     border: 2px solid;
-    border-color: var(--azul);
+    border-color: var(--vermelho);
     width: 50%;
     text-align: center;
     border-radius: 0.5rem;
@@ -121,7 +122,7 @@ body {
 
 .rodape {
     padding: 1.5rem;
-    background-color: var(--azul);
+    background-color: var(--vermelho);
     color: var(--preto);
     font-family: var(--fonte-secundaria);
     font-weight: 400;
@@ -131,10 +132,11 @@ body {
 
 @media (max-width: 1200px){
     .cabecalho {
-        padding: 6% 0 0 20%;
+        padding: 6% 0 0 10%;
     }
     .cabecalho__menu {
         justify-content: center;
+        gap: 1.5rem;
     }
     .apresentacao {
         flex-direction: column-reverse;
